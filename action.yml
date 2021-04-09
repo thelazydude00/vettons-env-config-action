@@ -5,6 +5,14 @@ inputs:
     description: 'Who to greet'
     required: true
     default: 'World'
+  url:  # id of input
+    description: 'remote config url'
+    required: true
+    default: ''
+  filename:  # id of input
+    description: 'output filename'
+    required: true
+    default: ''
 outputs:
   time: # id of output
     description: 'The time we greeted you'
